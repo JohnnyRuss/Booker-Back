@@ -20,7 +20,7 @@ App.use(express.static(path.join(__dirname, 'public/assets')));
 App.use(
   cors({
     credentials: true,
-    origin: ['http://localhost:3000', 'https://booker13.netlify.app'],
+    // origin: ['http://localhost:3000', 'https://booker13.netlify.app'],
   })
 );
 
